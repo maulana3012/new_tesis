@@ -6,8 +6,11 @@ switch ($page) {
 	case 'Home':
 		include "dasboard.php";
 		break;
-	case 'Attendance':
-		include "Attendance.php";
+	case 'eForm':
+		include "eform.php";
+		break;
+	case 'attendance':
+		include "attendance.html";
 		break;
 	case 'Manage':
 		include "Manage.php";

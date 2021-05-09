@@ -13,7 +13,13 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="dasboard.php">Home</a></li>
-        <li><a href="dasboard.php?page=Attendance">Attendance</a></li>
+        <!-- <li><a href="dasboard.php?page=Attendance">Attendance</a></li> -->
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="dasboard.php?page=eForm">e-Form</a></li>
+            </ul>
+        </li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $Ffullname; ?><span class="caret"></span></a>
             <ul class="dropdown-menu">

@@ -86,10 +86,10 @@ if (isset($_POST['submit'])) {
 			               }
 			            }
 			        ?>
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<div class="wrap-input100 validate-input" data-validate = "Valid Nik is required: ex@abc.xyz">
 						<input type="text" name="fnik" class="input100" required>
 						<span class="focus-input100"></span>
-						<span class="label-input100">Username</span>
+						<span class="label-input100">NIK</span>
 					</div>
 					
 					
