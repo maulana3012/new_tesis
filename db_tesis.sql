@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 05 Bulan Mei 2021 pada 16.58
+-- Waktu pembuatan: 18 Bulan Mei 2021 pada 10.54
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 7.3.27
 
@@ -268,7 +268,24 @@ INSERT INTO `tb_user_log` (`id`, `tanggal`, `expired`, `token`, `username`, `ip`
 (104, '2021-05-02 08:45:55', '2021-05-02 08:46:49', '7cd6d87452651b616728e2a7bd84d65023465de6', 'muhamadmaulanarachman@gmail.com', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
 (105, '2021-05-02 08:48:57', '2021-05-02 14:48:57', 'b01bf28f8ee82bdd1b309f81d3c69661b3d30876', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
 (106, '2021-05-02 09:13:34', '2021-05-02 09:16:56', 'de2c29be4c39ec97e08918a80c6cec41f182f14d', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
-(107, '2021-05-02 09:17:06', '2021-05-02 15:17:06', '5d4424bf88b5b7915d8bd275f74b8665eaa09350', 'muhamadmaulanarachman@gmail.com', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1);
+(107, '2021-05-02 09:17:06', '2021-05-02 15:17:06', '5d4424bf88b5b7915d8bd275f74b8665eaa09350', 'muhamadmaulanarachman@gmail.com', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
+(108, '2021-05-06 10:42:24', '2021-05-06 10:42:24', '', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 9),
+(109, '2021-05-06 10:42:31', '2021-05-06 10:42:31', '', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 9),
+(110, '2021-05-06 10:42:39', '2021-05-06 16:42:39', '2e952f914fa0f9bc8520896e361745d8dace527d', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
+(111, '2021-05-06 11:03:33', '2021-05-06 17:03:33', '1b756b2013b27be01549c9451385f8cdf0ab5a3a', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
+(112, '2021-05-06 11:35:17', '2021-05-06 13:02:12', 'db8643bc71c19a38a12542691f447fc793ddcbe0', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
+(113, '2021-05-06 13:06:35', '2021-05-06 13:07:33', 'e00cbcf2b5ecf99cf0790d98cba6cc0b55291b81', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
+(114, '2021-05-06 13:08:45', '2021-05-06 13:09:03', 'b2c02158b1f3d834df4378513b7812e9a949495f', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
+(115, '2021-05-06 13:09:34', '2021-05-06 13:09:34', '', 'muhamadmaulanarachman@gmail.com', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 9),
+(116, '2021-05-06 13:09:40', '2021-05-06 13:10:35', '2ee04f8e4a44ae45db6ed151617d53ea25462be9', 'muhamadmaulanarachman@gmail.com', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
+(117, '2021-05-06 13:11:49', '2021-05-06 19:11:49', '64d10b4574af8fa51480f753d6c93e894ebf6fc3', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
+(118, '2021-05-06 20:04:51', '2021-05-06 20:04:51', '', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 9),
+(119, '2021-05-06 20:04:57', '2021-05-07 02:04:57', 'c02830098d7f1870a12a6d8abd5a0f235308baec', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
+(120, '2021-05-09 19:10:54', '2021-05-10 01:10:54', '0a0f06cb70119ca363aa038e0df1a125cb8385a7', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36', 1),
+(121, '2021-05-18 10:15:42', '2021-05-18 10:15:42', '', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36', 9),
+(122, '2021-05-18 10:15:56', '2021-05-18 10:15:56', '', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36', 9),
+(123, '2021-05-18 10:16:09', '2021-05-18 10:16:42', 'cb4622058330309045f0d6b73ab225b7b92049d9', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36', 1),
+(124, '2021-05-18 10:16:57', '2021-05-18 16:16:57', 'b2009e5d8cde0d232a2ab2333baad28fe0e3c040', '19185', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36', 1);
 
 --
 -- Indexes for dumped tables
@@ -360,7 +377,7 @@ ALTER TABLE `tb_user`
 -- AUTO_INCREMENT untuk tabel `tb_user_log`
 --
 ALTER TABLE `tb_user_log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=108;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=125;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
