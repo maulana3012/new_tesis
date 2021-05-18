@@ -9,12 +9,10 @@
   	<div class="panel panel-default">
 	  <div class="panel-body">
 	    <?php
-	    	$command = escapeshellcmd('app.py 1');
+	    	$command = escapeshellcmd('tes.py 1');
 	    	$output = shell_exec($command);
-
+	    	echo $output;
 	    ?>
-
-	    <img src="<?php echo $output; ?>">
 	  </div>
 	</div>
   </div>

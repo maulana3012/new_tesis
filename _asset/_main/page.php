@@ -10,7 +10,7 @@ switch ($page) {
 		include "eform.php";
 		break;
 	case 'attendance':
-		include "attendance.html";
+		include "attendance.php";
 		break;
 	case 'Manage':
 		include "Manage.php";
